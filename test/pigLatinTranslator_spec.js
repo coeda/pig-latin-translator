@@ -14,7 +14,7 @@ describe('pigLatinTranslator', function() {
     it('should check if word starts with A,E,I,O,U', function (){
       expect(piglatinTranslator.wordCheck).to.be.an('function');
       expect(pigLatinTranslator.wordCheck('eat')).to.equal(true);
-            expect(pigLatinTranslator.wordCheck('pig')).to.equal(false);
+      expect(pigLatinTranslator.wordCheck('pig')).to.equal(false);
     });
   });
   describe('word conversion', function(){
